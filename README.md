@@ -4,7 +4,7 @@
 
 
 
-[Website hosted on github](https://kevnramos.github.io/Layouts_Float-Flex-Grid/index.html)
+[Website hosted on github](https://kevnramos.github.io/Layouts_Float-Flex-Grid/)
 
 1. Float and Clear Branch
 
