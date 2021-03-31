@@ -1,0 +1,42 @@
+body {
+    background-color: #a7dbe3;
+    font-size: 21px;
+    font-family: Inconsolata, monospace;
+}
+
+h1 {
+    font-size: 70px;
+    color: darkblue;
+    font-family: "Times New Roman", "Courier New";
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+
+}
+
+.red-box {
+
+    width: 500px;
+    background: rgba(255, 0, 0, 0.5);
+    float: left;
+}
+
+.blue-box {
+    width: 500px;
+    background: blue;
+    color: white;
+    float: right;
+}
+
+img {
+    float: left;
+    margin-right: 20px
+}
