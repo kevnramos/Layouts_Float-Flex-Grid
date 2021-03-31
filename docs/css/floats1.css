@@ -1,0 +1,89 @@
+body {
+    background-color: #a7dbe3;
+    font-size: 21px;
+    font-family: Inconsolata, monospace;
+}
+
+h1 {
+    font-size: 70px;
+    color: darkblue;
+    font-family: "Times New Roman", "Courier New";
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+
+
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background: pink;
+    float: left;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    float: left;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background: firebrick;
+    float: left;
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    float: left;
+}
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    clear: both;
+}
+
+.box6 {
+    width: 100px;
+    height: 100px;
+    background: lime;
+    float: left;
+}
+
+.box7 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    float: left;
+}
+
+.box8 {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    float: left;
+}
+
+.box9 {
+    width: 100px;
+    height: 100px;
+    background: purple;
+    float: left;
+}
+
+.box10 {
+    width: 100px;
+    height: 100px;
+    background: black;
+    float: left;
+}
