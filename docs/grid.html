@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Grids</title>
+
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /*grid-column-gap: 1em;*/
+            /*grid-row: 1em;*/
+            grid-gap: 1em;
+        }
+
+        .wrapper > div {
+            background: #eee;
+            padding: 1em;
+        }
+
+        .wrapper > div:nth-child(odd) {
+            background: #ddd;
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+<div class="wrapper">
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur consequuntur, cum ipsum odit perspiciatis
+        porro? Commodi illum provident quaerat soluta! Excepturi harum illo laborum mollitia natus odio officiis quod
+        ratione sit vel. Dolor dolore hic odio perspiciatis qui vitae voluptatibus. Aliquam, placeat, sunt. Architecto
+        asperiores commodi culpa delectus deleniti, doloribus fugiat labore maiores odit, quae quas qui quos repellendus
+        sint temporibus voluptas voluptatem. Laborum magni, nam porro quasi quibusdam quis voluptatum. Aliquid aperiam
+        cum dicta dolor eum laboriosam nam nemo?
+    </div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero maiores modi nobis provident quam quod
+        similique! Dolorem eaque labore, maxime nemo nihil optio quis rem repellendus, sapiente tempore temporibus.
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur consequuntur, cum ipsum odit perspiciatis
+        porro? Commodi illum provident quaerat soluta! Excepturi harum illo laborum mollitia natus odio officiis quod
+        ratione sit vel. Dolor dolore hic odio perspiciatis qui vitae voluptatibus. Aliquam, placeat, sunt. Architecto
+        asperiores commodi culpa delectus deleniti, doloribus fugiat labore maiores odit, quae quas qui quos repellendus
+        sint temporibus voluptas voluptatem. Laborum magni, nam porro quasi quibusdam quis voluptatum. Aliquid aperiam
+        cum dicta dolor eum laboriosam nam nemo?
+    </div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos libero maiores modi nobis provident quam quod
+        similique! Dolorem eaque labore, maxime nemo nihil optio quis rem repellendus, sapiente tempore temporibus.
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
